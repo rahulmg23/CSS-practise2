@@ -1,0 +1,73 @@
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    animation: myClass 2s ease-in 0s infinite normal; */
+    /* animation: myClass;
+    animation-duration:  10s;;
+    animation-name: myClass;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+    /* animation shorthand */
+    /* transition: all;
+    transition-delay: 2s;
+    transition-delay: 2s;
+    transition-property: all;
+    transition-timing-function: ease-in; 
+    transition: all 2s ease-in 1s;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    transform: rotate(45deg);/* css transform*/
+    /* css scale  will double the size  can be scaled in x and y axis (1,2)*/
+    /* transform: scale(2);  */
+    /* transition: all 2s ease-in; */
+/* } */
+/* div:hover{ */
+    /* background-color: blue;
+    color: white;
+    font-size: 2px; */
+    /* transform: scale(2); */
+        /* can be decided which direction acc to y and x axis and negative and positive axis */
+     /* transform: translate(200px, 80px);  */
+    /* SKEW   will pull and drag the edges always in degree to be remembers*/
+    /* transform: skew(200deg);  */
+/* }
+div:active{
+    background-color: aqua;
+    font-size: 2px;
+} */
+/* @keyframes myAnimation {
+    from {
+        left: 0px;
+        background-color: aquamarine;
+    }
+    to {
+        left: 500px;
+        background-color: black;
+    }
+} */
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    animation: myAnimation 2s ease-in 0s infinite normal;
+}
+@keyframes myAnimation {
+0% {
+        left: 0px;
+        background-color: aquamarine;
+    }
+    50% {
+        background-color: black;
+    }
+100%{
+    left: 100px;
+    background-color: brown;
+}
+}
+

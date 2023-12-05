@@ -1,0 +1,16 @@
+.navbar {
+    background-color: rgb(249, 94, 94);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row; /* Add this line to ensure horizontal alignment */
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    background-color: rgb(16, 17, 17);
+    justify-content: center;
+}
